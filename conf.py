@@ -1,5 +1,4 @@
-# -- Project information -----------------------------------------------------
-
+#-- Project information -----------------------------------------------------
 project = 'Im HIM PORT'
 copyright = '2022, Enmanuel A Morillo'
 author = 'Enmanuel Morillo'
@@ -21,7 +20,6 @@ extensions = [
     'sphinx.ext.intersphinx',
     "sphinx_design",
     "sphinxext.opengraph",
-    
 ]
 
 # "sphinxext.rediraffe",
