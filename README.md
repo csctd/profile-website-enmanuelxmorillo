@@ -17,6 +17,10 @@ Since you're here, you might be:
   - informative
   - show people that hard work pays off
   - inroduce people to my life 
-   
+
+   ## Accessibility
+   - have different color themes
+   - changed brightness options
+     
 
 
