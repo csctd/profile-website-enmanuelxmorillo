@@ -9,6 +9,14 @@ Since you're here, you might be:
   - looking for a new friend 
   - job employers
   -  anyone 
+
+   ## design 
+
+  - simple
+  - easy to read
+  - informative
+  - show people that hard work pays off
+  - inroduce people to my life 
    
 
 
