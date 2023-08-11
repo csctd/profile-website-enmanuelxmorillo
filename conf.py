@@ -1,4 +1,5 @@
 #-- Project information -----------------------------------------------------
+
 project = 'Im HIM PORT'
 copyright = '2022, Enmanuel A Morillo'
 author = 'Enmanuel Morillo'
@@ -45,6 +46,7 @@ html_theme = 'pydata_sphinx_theme'
 import yaml
 with open ('info.yml','r') as f:
     html_context = yaml.safe_load(f)
+    
 
 
 html_theme_options = {
@@ -70,7 +72,7 @@ html_static_path = ['_static']
 # map pages to which sidebar they should have 
 #  "page_file_name": ["list.html", "of.html", "sidebar.html", "files.html"]
 html_sidebars = {
-    "index": ["hello.html"],
+    "index": ["Additional_sidebar.html"],
     "about": ["hello.html"],
     "resume": ["hello.html"],
     "news": ["hello.html", 'ablog/archives.html'],
