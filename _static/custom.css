@@ -230,7 +230,7 @@ div.admonition.pink>.admonition-title:after {
 
 /* the background in full screen mode */
 #slideshow::backdrop {
-    background-color: darkblue;
+    background-color: rgb(170, 134, 124);
 }
 
 
@@ -356,3 +356,5 @@ div.admonition.pink>.admonition-title:after {
         font-size: 11px
     }
 }
+body {background-color: #c1a770;}
+img {border-radius: 500px;}
