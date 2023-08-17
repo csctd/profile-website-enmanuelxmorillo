@@ -12,10 +12,12 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="about/" />
 <meta property="og:site_name" content="Im HIM PORT" />
+<meta property="og:description" content="The loud explosive fireworks are beautiful basketballcourt 2 basketball court 1 coding coding buldings nature hangingout coding 2 hill food1 beach beach beach beach beach beach beach beach" />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="/_images/social_previews/summary_about_43515e50.png" />
-<meta property="og:image:alt" content="" />
+<meta property="og:image" content="/_images/social_previews/summary_about_e735d3d8.png" />
+<meta property="og:image:alt" content="The loud explosive fireworks are beautiful basketballcourt 2 basketball court 1 coding coding buldings nature hangingout coding 2 hill food1 beach beach beac..." />
+<meta name="description" content="The loud explosive fireworks are beautiful basketballcourt 2 basketball court 1 coding coding buldings nature hangingout coding 2 hill food1 beach beach beach beach beach beach beach beach" />
 <meta name="twitter:card" content="summary_large_image" />
 
     <title>About me &#8212; Im HIM PORT</title>
@@ -415,8 +417,212 @@ document.write(`
     I was born in the Dominican Republic and came here at the age of 7
     I speak both spanish and english fluently 
     When I was in high school I played basketball, football, and ran track and field 
-    I come from a family of 5 and I'm the oldest out of 
+    I come from a family of 5 and I'm the oldest out of 3. 
     </p>
+   <ul>
+   <li> I played basketball for <b> Cranston East </b>
+   <li> Graduated with a 3.4 gpa 
+   <li> Played football
+   <li> Ran track as well... 
+  </ul>
+<figure> 
+    <img src="_static/img/basketballeast.jpeg"
+  </figure>
+<style>
+img {}
+</style>
+<script>
+    // this section is javascript, not HTML evn though it's in the HTML file
+    let slideIndex = 0;
+    let slides = document.getElementsByClassName("slide");
+    let slideTime = 20000;
+    // var slideInterval = setInterval(showSlides, slideTime);
+    // clearInterval(slideInterval);
+
+    // if (slides.length > 0 ){
+    //     showSlides();
+    // }
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("slide");
+        // console.log('in')
+        // console.log(slides.length)
+        // console.log(slideIndex)
+
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            // console.log(i)
+            // console.log('off')
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        slides[slideIndex - 1].style.display = "block";
+    }
+
+    // show all again if not playing
+    function showAll() {
+        let i;
+        let slides = document.getElementsByClassName("slide");
+
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "block";
+        }
+    }
+
+//  make full screen mode
+    function openFullscreen() {
+        var elem = document.getElementById('slideshow');
+        console.log('fullscreen');
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.mozRequestFullScreen) { /* Firefox */
+                elem.mozRequestFullScreen();
+            } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) { /* IE/Edge */
+                elem.msRequestFullscreen();
+            }
+        showSlides()
+        slideInterval = setInterval(showSlides, slideTime);
+    }
+
+
+    function closeFullscreen() {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.mozCancelFullScreen) { /* Firefox */
+                document.mozCancelFullScreen();
+            } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) { /* IE/Edge */
+                document.msExitFullscreen();
+            }
+
+        clearInterval(slideInterval);
+        showAll();
+        }
+
+    // play without fullscreen
+    function playSlideShow() {
+        
+            showSlides()
+            slideInterval = setInterval(showSlides, slideTime);
+        }
+
+    function pauseSlideShow() {
+        
+            clearInterval(slideInterval);
+            showAll();
+        }
+</script>
+ <div id="slideshow">
+<!-- a container for the buttons -->
+<div class="controls">
+    <!-- the btn,  btn-dark, and btn-info classes come from Bootstrap-->
+<input class='btn btn-dark' id="pageview" type="button" value="X" onclick="closeFullscreen()"/>
+<input class='btn btn-info' id="presentation" type="button" value="Present" onclick="openFullscreen()"/>
+<!-- the fucntions called by buttons are defined in layout.html -->
+</div>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-3 docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="The loud explosive fireworks are beautiful " src="_static/img/IMG_0581.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="basketballcourt 2 " src="_static/img/basketballcourt2.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="basketball court 1 " src="_static/img/basketball1.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="coding  " src="../_images/food.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="coding  " src="../_images/coding1.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="buldings " src="../_images/building1.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="nature " src="_static/img/nature.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="hangingout  " src="../_images/rahangout.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="coding 2 " src="../_images/coding2.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="hill " src="../_images/hill.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="food1  " src="_static/img/food1.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="beach" src="../_images/IMG_9721.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="beach" src="../_images/building2.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="beach" src="_static/img/hall.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="beach" src="../_images/nature2.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="beach" src="../_images/car.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="beach" src="../_images/room.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="beach" src="../_images/basketball2.jpeg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="beach" src="../_images/football1.jpeg" /></p>
+</div>
+</div>
+</div>
+</div>
 </section>
 
 <div class="section ablog__blog_comments">
@@ -486,7 +692,7 @@ document.write(`
     // this section is javascript, not HTML evn though it's in the HTML file
     let slideIndex = 0;
     let slides = document.getElementsByClassName("slide");
-    let slideTime = 5000;
+    let slideTime = 20000;
     // var slideInterval = setInterval(showSlides, slideTime);
     // clearInterval(slideInterval);
 
